@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thymeleafdemo" />
+        <module name="07-thymeleaf-employee-management-jdbc-authentication-custom-table" />
+        <module name="03-thymeleaf-demo-employees-starter-list-security-custom-login-page" />
+        <module name="01-thymeleaf-demo-employees-starter-list" />
+        <module name="04-thymeleaf-demo-employees-starter-list-security-bootstrap-login-page" />
+        <module name="05-thymeleaf-demo-employees-starter-list-security-bootstrap-login-page-custom-access-denied-page" />
+        <module name="02-thymeleaf-demo-employees-starter-list-security" />
+        <module name="06-thymeleaf-employee-management-jdbc-authentication" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-thymeleaf-demo-employees-starter-list" options="-parameters" />
+      <module name="02-thymeleaf-demo-employees-starter-list-security" options="-parameters" />
+      <module name="03-thymeleaf-demo-employees-starter-list-security-custom-login-page" options="-parameters" />
+      <module name="04-thymeleaf-demo-employees-starter-list-security-bootstrap-login-page" options="-parameters" />
+      <module name="05-thymeleaf-demo-employees-starter-list-security-bootstrap-login-page-custom-access-denied-page" options="-parameters" />
+      <module name="06-thymeleaf-employee-management-jdbc-authentication" options="-parameters" />
+      <module name="07-thymeleaf-employee-management-jdbc-authentication-custom-table" options="-parameters" />
+      <module name="thymeleafdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
